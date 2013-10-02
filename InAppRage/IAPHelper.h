@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <StoreKit/StoreKit.h>
+//notification used to notify listeners when a product has been purchased
+UIKIT_EXTERN NSString *const IAPHelperProductPurchasedNotification;
 
 typedef void (^RequestProductsCompletionHandler)(BOOL success, NSArray * products);
 
@@ -18,5 +21,13 @@ typedef void (^RequestProductsCompletionHandler)(BOOL success, NSArray * product
 // asynchronous method to retrieve info about the products from iTunes Connect.
 // Takes a block as a parameter so it can notify the caller when it is complete.
 - (void)requestProductsWithCompletionHandler:(RequestProductsCompletionHandler)completionHandler;
+
+// method to start buying a product, and a method to determine if a product has been purchased.
+- (void)buyProduct:(SKProduct *)product;
+- (BOOL)productPurchased:(NSString *)productIdentifier;
+
+// to restore previously purchased purchases
+- (void)restoreCompletedTransactions;
+
 
 @end
