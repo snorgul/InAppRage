@@ -22,6 +22,8 @@
 		F540834117FB2B400023F2D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540832017FB2B400023F2D2 /* UIKit.framework */; };
 		F540834917FB2B400023F2D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F540834717FB2B400023F2D2 /* InfoPlist.strings */; };
 		F540834B17FB2B400023F2D2 /* InAppRageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F540834A17FB2B400023F2D2 /* InAppRageTests.m */; };
+		F540835517FB2B6F0023F2D2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540835417FB2B6F0023F2D2 /* StoreKit.framework */; };
+		F540835817FB51340023F2D2 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F540835717FB51340023F2D2 /* IAPHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		F540834617FB2B400023F2D2 /* InAppRageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InAppRageTests-Info.plist"; sourceTree = "<group>"; };
 		F540834817FB2B400023F2D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F540834A17FB2B400023F2D2 /* InAppRageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppRageTests.m; sourceTree = "<group>"; };
+		F540835417FB2B6F0023F2D2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F540835617FB51340023F2D2 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		F540835717FB51340023F2D2 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F540835517FB2B6F0023F2D2 /* StoreKit.framework in Frameworks */,
 				F540831F17FB2B400023F2D2 /* CoreGraphics.framework in Frameworks */,
 				F540832117FB2B400023F2D2 /* UIKit.framework in Frameworks */,
 				F540831D17FB2B400023F2D2 /* Foundation.framework in Frameworks */,
@@ -104,6 +110,7 @@
 		F540831B17FB2B400023F2D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F540835417FB2B6F0023F2D2 /* StoreKit.framework */,
 				F540831C17FB2B400023F2D2 /* Foundation.framework */,
 				F540831E17FB2B400023F2D2 /* CoreGraphics.framework */,
 				F540832017FB2B400023F2D2 /* UIKit.framework */,
@@ -115,6 +122,8 @@
 		F540832217FB2B400023F2D2 /* InAppRage */ = {
 			isa = PBXGroup;
 			children = (
+				F540835617FB51340023F2D2 /* IAPHelper.h */,
+				F540835717FB51340023F2D2 /* IAPHelper.m */,
 				F540832B17FB2B400023F2D2 /* AppDelegate.h */,
 				F540832C17FB2B400023F2D2 /* AppDelegate.m */,
 				F540832E17FB2B400023F2D2 /* Main.storyboard */,
@@ -257,6 +266,7 @@
 				F540832D17FB2B400023F2D2 /* AppDelegate.m in Sources */,
 				F540833317FB2B400023F2D2 /* MasterViewController.m in Sources */,
 				F540832917FB2B400023F2D2 /* main.m in Sources */,
+				F540835817FB51340023F2D2 /* IAPHelper.m in Sources */,
 				F540833617FB2B400023F2D2 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
