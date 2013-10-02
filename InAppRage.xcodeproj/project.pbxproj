@@ -24,6 +24,7 @@
 		F540834B17FB2B400023F2D2 /* InAppRageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F540834A17FB2B400023F2D2 /* InAppRageTests.m */; };
 		F540835517FB2B6F0023F2D2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540835417FB2B6F0023F2D2 /* StoreKit.framework */; };
 		F540835817FB51340023F2D2 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F540835717FB51340023F2D2 /* IAPHelper.m */; };
+		F540835B17FC79AC0023F2D2 /* RageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F540835A17FC79AC0023F2D2 /* RageIAPHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		F540835417FB2B6F0023F2D2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F540835617FB51340023F2D2 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
 		F540835717FB51340023F2D2 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		F540835917FC79AC0023F2D2 /* RageIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RageIAPHelper.h; sourceTree = "<group>"; };
+		F540835A17FC79AC0023F2D2 /* RageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RageIAPHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 			children = (
 				F540835617FB51340023F2D2 /* IAPHelper.h */,
 				F540835717FB51340023F2D2 /* IAPHelper.m */,
+				F540835917FC79AC0023F2D2 /* RageIAPHelper.h */,
+				F540835A17FC79AC0023F2D2 /* RageIAPHelper.m */,
 				F540832B17FB2B400023F2D2 /* AppDelegate.h */,
 				F540832C17FB2B400023F2D2 /* AppDelegate.m */,
 				F540832E17FB2B400023F2D2 /* Main.storyboard */,
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F540832D17FB2B400023F2D2 /* AppDelegate.m in Sources */,
+				F540835B17FC79AC0023F2D2 /* RageIAPHelper.m in Sources */,
 				F540833317FB2B400023F2D2 /* MasterViewController.m in Sources */,
 				F540832917FB2B400023F2D2 /* main.m in Sources */,
 				F540835817FB51340023F2D2 /* IAPHelper.m in Sources */,
@@ -476,6 +482,7 @@
 				F540835017FB2B400023F2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F540835117FB2B400023F2D2 /* Build configuration list for PBXNativeTarget "InAppRageTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				F540835317FB2B400023F2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
